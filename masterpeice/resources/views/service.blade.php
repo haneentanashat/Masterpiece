@@ -61,7 +61,7 @@
         </div>
     </div>
     <!-- Page Header End -->
-    <div class="col-lg-6 mx-6 " data-wow-delay="0.5s"" >
+    <div class="col-lg-5 mx-5 " data-wow-delay="0.5s"" >
         <p class="mb-4" style="text-transform:capitalize;">please complete the form below. we’ll be in touch with you soon.</p> 
         <form>
            
