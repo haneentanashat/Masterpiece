@@ -1,26 +1,10 @@
-@extends('layout.main')
-@section('title')
-élégant design
-@endsection
-@section('content')
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
-        </div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
-    </div>
-    <!-- Spinner End -->
-
-
-    <!-- Topbar Start -->
-    
-
-
-    
-
-
+<!DOCTYPE html>
+<html lang="en">
+    @extends('layout.main')
+    @section('title')
+        Home Page
+    @endsection
+    @section('content')
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
@@ -84,7 +68,7 @@
                             <img class="mb-4" src="img/icons/living-room.png" alt="Icon">
                             <h3 class="mb-3">Living Room</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="/living"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +79,7 @@
                             <img class="mb-4" src="img/icons/chair.png" alt="Icon">
                             <h3 class="mb-3">Dining Room</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="/dinning"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +90,7 @@
                             <img class="mb-4" src="img/icons/kitchen.png" alt="Icon">
                             <h3 class="mb-3">kitchen</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="/kitchen"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +101,7 @@
                             <img class="mb-4" src="img/icons/double-bed.png" alt="Icon">
                             <h3 class="mb-3">Bedroom</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="/bedroom"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +112,7 @@
                             <img class="mb-4" src="img/icons/bathroom.png" alt="Icon">
                             <h3 class="mb-3">Hallway & Bathroom</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="bathroom"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +123,7 @@
                             <img class="mb-4" src="img/icons/workspace.png" alt="Icon">
                             <h3 class="mb-3">Work place</h3>
                             <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>See More</a>
+                            <a class="btn" href="/workPlace"><i class="fa fa-plus text-primary me-3"></i>See More</a>
                         </div>
                     </div>
                 </div>
@@ -292,8 +276,5 @@
     </div>
     <!-- Testimonial End -->
 
-
-    
-</body>
-
-</html>
+    @endsection
+   
