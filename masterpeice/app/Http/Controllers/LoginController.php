@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 namespace App\Http\Controllers;
 use Auth;
@@ -110,4 +110,4 @@ class LoginController extends Controller
     {
         //
     }
-}
+} -->

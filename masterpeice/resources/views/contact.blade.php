@@ -67,7 +67,7 @@
                         {{ session('status') }}
                     </div>
                 @endif
-                    <form action="{{ route('add-store') }}" method="post >
+                    <form action="" method="post >
                         @csrf
                         <div class="row g-3">
                             <div class="col-md-6">

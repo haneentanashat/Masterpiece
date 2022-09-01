@@ -27,7 +27,7 @@ Login page
               ">
             <div class="card-body p-5 shadow-5 text-center">
               <h2 class="fw-bold mb-5">Sign in now</h2>
-              <form>
+              <form method="POST" >
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 
   
